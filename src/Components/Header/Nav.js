@@ -7,15 +7,18 @@ function Nav() {
   let activeStyle = {
     textDecoration: "underline",
     fontSize:"19px",
-    color:"gold",
-    fontWeight:"800" 
+    color:"#e11e25",
+    fontWeight:"700" 
   };
 
 
   return (
     <div class="navmain">
+       <NavLink to="/" className="nav_text1"
+        style={({ isActive }) => (isActive ? activeStyle : undefined)}>
+        <p class="nav_text"> Home</p></NavLink>
 
-<NavLink to="Services/" className="nav_text1"
+        <NavLink to="Services/" className="nav_text1"
         style={({ isActive }) => (isActive ? activeStyle : undefined)}>
         <p class="nav_text"> Services</p></NavLink>
         

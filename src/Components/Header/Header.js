@@ -25,9 +25,9 @@ function Header() {
     <img src={apf_logo} alt="" className="afrlogo" onClick={() =>  navigate('/')} />
     <Nav />
 
-    <a target="_blank" rel="noreferrer" href="https://github.com/Godwinchinkwe">
+    {/* <a target="_blank" rel="noreferrer" href="https://github.com/Godwinchinkwe">
     <button class="but" > Github profile</button>
-  </a>
+  </a> */}
 
 
     <div class="burger">

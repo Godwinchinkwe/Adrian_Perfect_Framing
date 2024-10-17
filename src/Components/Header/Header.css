@@ -8,8 +8,8 @@
     height: 80%;
 }
 .afrlogo{
-    width: 120px;
-    height: 80px;
+    width: 100px;
+    height: 70px;
 }
 
 .main_header{
@@ -18,7 +18,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #faf8f8;
+    /* background:#f8f3f3; */
+    background:#E7C3A1;
     color:rgb(27, 1, 1) ;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -83,7 +84,8 @@
 }
 .fd{
     height: 50px;
-    background: rgb(213, 236, 5);
+    /* background: rgb(213, 236, 5); */
+    background: #e11e25;
     text-align: center;
     padding: 10px;
 }

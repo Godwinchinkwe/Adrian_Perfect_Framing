@@ -3,7 +3,7 @@ import "./Footer.css"
 import { FaTiktok } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import apf_logo from "../Assets/apf_logo.png"
+import apf_logo from "../Assets/copylogo.jpg"
 // import instagram_icon from "../Assets/instagram_icon.png"
 // import pintester_icon from "../Assets/pintester_icon.png"
 // import whatsapp_icon from "../Assets/whatsapp_icon.png"
