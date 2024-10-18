@@ -1,13 +1,16 @@
 import React from 'react'
-import Slides from "../Components/Slides/Slides"
-// import "../Components/Slides/Slides.css"
+import Landing from '../Components/Landing/Landing'
+
 
 const Hero = () => {
   return (
     <div>
-        <Slides />
+      <Landing />
+  
+
     </div>
   )
 }
 
 export default Hero
+

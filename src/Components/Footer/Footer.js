@@ -13,11 +13,12 @@ const Footer = () => {
     <div className='footer'>
         <div className='footer-logo'>
             <img src={apf_logo} alt=""/>
-            <p>APF</p>
+            {/* <p>APF</p>  */}
         </div>
         <ul className='footer-links'>
             <li>Company</li>
             <li>Services</li>
+            <li>FAQ</li>
             <li>Terms & Condition</li>
             <li>Products</li>
             <li>Offices</li>
