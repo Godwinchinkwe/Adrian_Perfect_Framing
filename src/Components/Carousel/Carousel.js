@@ -3,10 +3,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "./Carousel.css";
-import pic1 from "../Assets/tent-1.jpg"
-import pic2 from "../Assets/tent-2.jpg"
-import pic3 from "../Assets/tent-2.jpg"
-import pic4 from "../Assets/tent-2.jpg"
+import pic1 from "../Assets/ware house.jpg"
+import pic2 from "../Assets/standing frame .jpg"
+import pic3 from "../Assets/i r frame.jpg"
+import pic4 from "../Assets/wall frame.jpg"
 
 
 
@@ -59,22 +59,22 @@ function Carousel() {
         <Slider {...settings}>
 
 <div className='slider-div'>
-  <h3 > Chicks</h3>
+  <h3 > Ware House</h3>
   <img src={pic1} alt="Chicks" className='cont' />
 </div>
 
  <div className='slider-div'>
-<h3> Cat Fish</h3>
+<h3> Table Frame</h3>
 <img src={pic2} alt="" className='cont' />
 </div> 
 
 <div className='slider-div'>
-<h3>Cat Fish</h3>
+<h3>Round Frame</h3>
 <img src={pic3} alt="" className='cont' />
 </div>
 
 <div className='slider-div'>
-<h3> Hens</h3>
+<h3> Wall Frame</h3>
 <img src={pic4} alt="" className='cont'  />
 </div>
 

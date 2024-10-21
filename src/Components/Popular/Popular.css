@@ -5,11 +5,14 @@
     flex-wrap: wrap;
     gap: 10px;
     margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
 }
 .popular h1{
     color: #171717;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;
     align-self: center;
 }
@@ -17,7 +20,7 @@
     width: 200px;
     height:6px;
     border-radius: 10px;
-    background: #131212;
+    background:  #ff6347;
     align-self: center;
    
 }

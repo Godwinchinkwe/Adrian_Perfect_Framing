@@ -213,8 +213,7 @@
       justify-content: space-between;
       gap: 2rem;
     }
-  
-   
+
   
     .cantainer {
       grid-template-columns: 2fr 3fr;

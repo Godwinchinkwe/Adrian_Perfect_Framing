@@ -8,12 +8,14 @@ import Footer from './Components/Footer/Footer';
 import Product from './Pages/Product';
 import Contact from './Pages/Contact';
 import PrivacyPolicy from './Pages/PrivacyPolicy';
+import Whatsapp from './Components/Whatsapp/whatsapp';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
       <Header/>
+      <Whatsapp/>
        <Routes>
         <Route path="/" element={<Hero/>} />
         <Route path='/about' element={<About/>}/>
