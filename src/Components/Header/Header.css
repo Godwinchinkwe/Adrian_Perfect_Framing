@@ -63,7 +63,7 @@
 .maindrop{
     position:absolute;
     right:0%;
-    top:14.5%;
+    top:11.5%;
     background:#131312;
     color:rgb(24, 24, 23);
     padding: 25px;
@@ -72,7 +72,8 @@
     width:100%;
     z-index: 200;
     box-shadow:0 0 1px rgba(0, 0, 0, 24)0px 3px 8px ;
-    height: 380px;  
+    /* height: 400px;   */
+    height: 100vh;
 }
 
 .dropwrap{
@@ -80,18 +81,38 @@
     gap:20px;
     /* background: red; */
     flex-direction: column;
-    text-align: center;
+    text-align:left;
+    font-size: 28px;
+    font-weight: 600;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.dropwrap p::after{
+    content: "";
+    height: 4px;
+    /* width: 230px; */
+    background: #ebe5e5;
+    display: block;
+    margin: auto;
+    width: 100%;
+    /* color: #f3f2f0; */
 }
 .fd{
     height: 50px;
     /* background: rgb(213, 236, 5); */
-    background: #e11e25;
-    text-align: center;
+    /* background: #e11e25; */
+    /* background:#4b1c97; */
+    color: #E7C3A1;
+    /* text-align: center; */
     padding: 10px;
+    width: 90%;
+    margin-bottom: 8px;
+    cursor: pointer;
 }
 .fd:hover{
     height: 40px;
-    background: rgb(103, 90, 116);
+    background: rgb(203, 190, 216);
    
 }
 

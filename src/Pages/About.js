@@ -1,6 +1,7 @@
 import React from 'react'
 import "./CSS/About.css"
 import bout from "../Components/Assets/bout us.jpg"
+import mission from "../Components/Assets/ouur mission.jpg"
 
 const About = () => {
   return (
@@ -21,7 +22,30 @@ const About = () => {
           </div>
         </div>
 
-      </section>
+      </section> 
+      <section className='about_us'>
+        <div className='about-heading'>
+          <h1>Our Mission</h1>
+
+        </div>
+        <div className='about-containerxy'>
+        <div className='about-hero-image'>
+          <div className='about-hero-content'>
+          <img src={mission} alt='' />
+            
+          </div>
+          </div>
+          <div className='about-hero-content'>
+            <h2> Our Vision, Our Passion.</h2>
+            <p>To deliver exceptional quality, customized photo frames and blocks that exceed customer expectations, while maintaining a reputation for excellence and commitment to customer satisfaction.
+            </p>
+            {/* <button className='about-cta-button'> Contact us</button> */}
+          </div>
+         
+        </div>
+
+      </section> 
+    
       
     </div>
   )
