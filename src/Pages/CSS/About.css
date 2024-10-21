@@ -57,12 +57,7 @@
      color: #667;
  }
 
- /* .about-hero-content ol li{
-    font-size:18px ;
-    margin-bottom:20px ;
-    color: red;
-} */
- 
+
  .about-hero-content button{
      display: inline-block;
      background:#e11e25;
@@ -81,7 +76,7 @@
      background: #ff6347;
      transform: scale(1.1);
  }
- 
+
  img{
      width: 90%;
      height: auto;

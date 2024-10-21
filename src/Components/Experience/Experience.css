@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5rem;
+    gap: 3rem;
     margin-top: 50px;
     margin-bottom: 50px;
     min-height: 20vh;
@@ -15,8 +15,8 @@
       align-items: center;
   }
   .circle {
-      width: 5rem;
-      height: 5rem;
+      width: 4rem;
+      height: 4rem;
       background: white;
       border-radius: 100%;
       position: relative;

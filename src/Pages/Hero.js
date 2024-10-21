@@ -4,10 +4,10 @@ import Carousel from '../Components/Carousel/Carousel'
 import Popular from "../Components/Popular/Popular"
 import Experience from "../Components/Experience/Experience"
 import "./CSS/Hero.css"
-// import bout from "../Components/Assets/frameurpics.jpg"
 
 
 const Hero = () => {
+
   return (
     <div className='hero-landing-page'>
       <Landing />
