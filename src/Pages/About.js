@@ -39,7 +39,7 @@ const About = () => {
             <h2> Our Vision, Our Passion.</h2>
             <p>To deliver exceptional quality, customized photo frames and blocks that exceed customer expectations, while maintaining a reputation for excellence and commitment to customer satisfaction.
             </p>
-            {/* <button className='about-cta-button'> Contact us</button> */}
+            <button className='about-cta-button'> Contact us</button>
           </div>
          
         </div>

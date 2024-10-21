@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Landing.css"
-import tent1 from "../Assets/tent-1.jpg"
-import tent2 from "../Assets/tent-2.jpg"
+import tent1 from "../Assets/wall frame.jpg"
+import tent2 from "../Assets/table frame cut.jpg"
 import { FaLocationDot } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";

@@ -1,7 +1,7 @@
-import p1_img from './tent-1.jpg'
-import p2_img from './tent-2.jpg'
-import p3_img from './bg cont.jpeg'
-import p4_img from './bout us.jpg'
+import p1_img from './fram 1.jpg'
+import p2_img from './fram 2.jpg'
+import p3_img from './frame diff size.jpg'
+import p4_img from './frame bleek.jpg'
 
 let data_product = [
   {
