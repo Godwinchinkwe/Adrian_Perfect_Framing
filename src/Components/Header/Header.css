@@ -72,7 +72,6 @@
     width:100%;
     z-index: 200;
     box-shadow:0 0 1px rgba(0, 0, 0, 24)0px 3px 8px ;
-    /* height: 400px;   */
     height: 100vh;
 }
 
@@ -82,8 +81,8 @@
     /* background: red; */
     flex-direction: column;
     text-align:left;
-    font-size: 28px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
     align-items: flex-start;
     width: 100%;
 }

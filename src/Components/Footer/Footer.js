@@ -28,13 +28,13 @@ const Footer = () => {
         </ul>
         <div className='footer-social-icon'>
             <div className='footer-icons-container'>
-              <FaTiktok fontSize={"30px"} />
+              <FaTiktok fontSize={"25px"} />
             </div>
             <div className='footer-icons-container'>
-              <FaFacebook fontSize={"30px"} />
+              <FaFacebook fontSize={"25px"} />
             </div>
             <div className='footer-icons-container'>
-              <FaInstagram fontSize={"30px"} />
+              <FaInstagram fontSize={"25px"} />
             </div>
         </div>
         <div className='footer-copyright'>

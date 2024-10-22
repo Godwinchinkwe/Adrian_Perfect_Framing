@@ -7,7 +7,7 @@
     margin-top: 30px;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
 
 }
 .popular h1{
@@ -33,3 +33,13 @@
     cursor: pointer;
     
 }
+
+@media screen and (max-width:500px) {
+    .popular h1{
+        color: #171717;
+        font-size: 2rem;
+        font-weight: 600;
+        align-self: center;
+    }
+ 
+  }

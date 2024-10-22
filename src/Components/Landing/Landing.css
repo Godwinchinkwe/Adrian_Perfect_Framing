@@ -2,7 +2,6 @@
     --primary-color:#E7C3A1;
     --text-dark: #2c2724;
     --white: #ffffff;
-    /* --max-width: 1200px; */
   }
   
   * {
@@ -26,7 +25,6 @@
 
   
   .cantainer {
-    /* max-width: var(--max-width); */
     margin: auto;
     padding: 5rem 0;
     position: relative;
@@ -34,13 +32,18 @@
     display: grid;
     gap: 2rem;
     overflow: hidden;
+    
   }
   
   .cantainer__left {
-    padding-inline: 1rem;
+    padding-inline: 2rem;
     text-align: center;
     text-align: flex-end;
     animation: fadeInUp 2s ease;
+  }
+
+  .cantainer__left p{
+    padding-right: 11px;
   }
   
   .cantainer__left h1 {
@@ -56,7 +59,6 @@
     width: 250px;
     background: #e11e25;
     display: block;
-    /* margin: auto; */
 }
   
   .cantainer__left .btn {
@@ -115,8 +117,7 @@
     transform: translateX(1rem);
     border-radius: 1rem;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
-    /* animation: fadeInUp 2s ease; */
-    /* animation: fadeInRight 2s ease; */
+
   }
   
   .tent-2 {
@@ -268,4 +269,25 @@
       margin-inline-start: unset;
     }
  
+  }
+
+  @media screen and (max-width:768px) {
+    .cantainer__left h1 {
+      margin-bottom: 1rem;
+      font-size: 3.rem;
+      font-weight: 600;
+      line-height: 4.3rem;
+    }
+  }
+  @media screen and (max-width:500px) {
+    .cantainer__left h1 {
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
+    .cantainer {
+      padding: 4rem 0;
+      display: grid;
+      gap: 2rem;
+      
+    }
   }
