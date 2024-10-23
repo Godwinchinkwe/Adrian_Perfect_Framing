@@ -79,7 +79,7 @@ const About = () => {
           <div className='contactForm'>
 
             <form id="myForm" ref={form} onSubmit={sendEmail} >
-              <h2>Send Message</h2>
+              <h2>Get in touch</h2>
               <div className='inputBox'>
                 <input type="text" name="to_name" value={name} required placeholder=''
                   onChange={(e) => setName(e.target.value)}/>

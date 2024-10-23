@@ -7,6 +7,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import {useNavigate} from "react-router-dom"
+import Typewriter from "typewriter-effect"
 
 const Landing = () => {
   const navigate = useNavigate();
@@ -17,10 +18,18 @@ const Landing = () => {
           <div class="cantainer__left">
             <h1>Adrian Perfect Framing</h1>
            
-            <p>Transform your memories into timeless treasures with our Exquisite picture Frame. Elevate your space and Showcase  Cherished moments with our Stylish Frames</p>
+            <p><span ><Typewriter options={{
+                            strings : [ "Transform your memories into timeless treasures with our Exquisite picture Frame. Elevate your space and Showcase  Cherished moments with our Stylish Frames","... ", "Where Every Pictures Tells a Story" ],
+                            loop: true,
+                            autoStart:true,
+                            typeSpeed: 120,
+                            backSpeed: 80,
+                            backDelay:1800,
+                        }}/> </span>
+           </p>
             <br></br>
             <div class="cantainer__btn">
-              <button class="btn" onClick={() =>  navigate('about/')}>BOOK NOW</button>
+              <button class="btn" onClick={() =>  navigate('contact/')}>BOOK NOW</button>
             </div>
           </div>
           <div class="cantainer__right">

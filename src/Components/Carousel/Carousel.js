@@ -7,6 +7,8 @@ import pic1 from "../Assets/ware house.jpg"
 import pic2 from "../Assets/standing frame .jpg"
 import pic3 from "../Assets/i r frame.jpg"
 import pic4 from "../Assets/wall frame.jpg"
+import pic5 from "../Assets/1frame1.jpg"
+import pic6 from "../Assets/3frame3.jpg"
 
 
 
@@ -79,13 +81,13 @@ function Carousel() {
 </div>
 
 <div className='slider-div'>
-<h3> Wall Frame</h3>
-<img src={pic4} alt="" className='cont'  />
+<h3> Table Frame</h3>
+<img src={pic5} alt="" className='cont'  />
 </div>
 
 <div className='slider-div'>
-<h3> Wall Frame</h3>
-<img src={pic4} alt="" className='cont'  />
+<h3> Table Frame</h3>
+<img src={pic6} alt="" className='cont'  />
 </div>
 
 </Slider>
