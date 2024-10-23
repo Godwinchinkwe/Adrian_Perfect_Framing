@@ -17,7 +17,8 @@ const Landing = () => {
           <div class="cantainer__left">
             <h1>Adrian Perfect Framing</h1>
            
-            <p> Adrian Perfect Framing is a professional manufacturer of sublimation MDF photo blocks and frames in Nigeria.</p><br></br>
+            <p>Transform your memories into timeless treasures with our Exquisite picture Frame. Elevate your space and Showcase  Cherished moments with our Stylish Frames</p>
+            <br></br>
             <div class="cantainer__btn">
               <button class="btn" onClick={() =>  navigate('about/')}>BOOK NOW</button>
             </div>
