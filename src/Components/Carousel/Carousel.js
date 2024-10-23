@@ -78,6 +78,16 @@ function Carousel() {
 <img src={pic4} alt="" className='cont'  />
 </div>
 
+<div className='slider-div'>
+<h3> Wall Frame</h3>
+<img src={pic4} alt="" className='cont'  />
+</div>
+
+<div className='slider-div'>
+<h3> Wall Frame</h3>
+<img src={pic4} alt="" className='cont'  />
+</div>
+
 </Slider>
 
         </div>

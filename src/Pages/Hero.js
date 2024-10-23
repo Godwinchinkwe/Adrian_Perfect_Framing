@@ -4,6 +4,7 @@ import Carousel from '../Components/Carousel/Carousel'
 import Popular from "../Components/Popular/Popular"
 import Experience from "../Components/Experience/Experience"
 import "./CSS/Hero.css"
+import Pricing from '../Components/Pricing/Pricing'
 
 
 const Hero = () => {
@@ -54,6 +55,7 @@ const Hero = () => {
 
       <Experience />
       <Carousel/>
+      <Pricing />
 
   
 

@@ -15,9 +15,9 @@ const Landing = () => {
         <div>
         <div class="cantainer">
           <div class="cantainer__left">
-            <h1>Adrian Perfect Framing Limited</h1>
+            <h1>Adrian Perfect Framing</h1>
            
-            <p> Adrian Perfect Framing Limited is a professional manufacturer of sublimation MDF photo blocks and frames in Nigeria.</p><br></br>
+            <p> Adrian Perfect Framing is a professional manufacturer of sublimation MDF photo blocks and frames in Nigeria.</p><br></br>
             <div class="cantainer__btn">
               <button class="btn" onClick={() =>  navigate('about/')}>BOOK NOW</button>
             </div>
@@ -32,7 +32,7 @@ const Landing = () => {
               <h2>BASIC TENT</h2>
               <h3>Your Framing Experience</h3>
               <p>
-              Adrian Perfect Framing Limited is a professional manufacturer of sublimation MDF photo blocks and frames in Nigeria, with over 2 years of development and 8 years of expertise in the photo framing industry. We specialize in customized frames in various designs and shapes, catering to diverse customer requirements.
+              Adrian Perfect Framing is a professional manufacturer of sublimation MDF photo blocks and frames in Nigeria, with over 2 years of development and 8 years of expertise in the photo framing industry. We specialize in customized frames in various designs and shapes, catering to diverse customer requirements.
     
               </p>
             </div>

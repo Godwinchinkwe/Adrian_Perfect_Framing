@@ -81,7 +81,7 @@ const About = () => {
             <form id="myForm" ref={form} onSubmit={sendEmail} >
               <h2>Send Message</h2>
               <div className='inputBox'>
-                <input type="text" name="to_name" value={name} required placeholder='Full Name'
+                <input type="text" name="to_name" value={name} required placeholder=''
                   onChange={(e) => setName(e.target.value)}/>
                 <span>Full Name</span>
               </div>
