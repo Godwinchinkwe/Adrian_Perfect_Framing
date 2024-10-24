@@ -31,7 +31,7 @@ function Header() {
 
 
     <div class="burger">
-    {toggle ? <FaTimes fontSize={"45px"} onClick={handlechange}/>: <ImMenu3 fontSize={"45px"} onClick={handlechange}/>}
+    {toggle ? <FaTimes fontSize={"25px"} onClick={handlechange}/>: <ImMenu3 fontSize={"25px"} onClick={handlechange}/>}
               {toggle ? <Dropdown props={handlechange}/>: null}
     </div>
 

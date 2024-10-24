@@ -9,6 +9,7 @@ import Product from './Pages/Product';
 import Contact from './Pages/Contact';
 import PrivacyPolicy from './Pages/PrivacyPolicy';
 import Whatsapp from './Components/Whatsapp/whatsapp';
+import TermsAndCondition from "./Pages/TermsAndCondition"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/product" element={<Product/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/privacypolicy" element={<PrivacyPolicy/>} />
+        <Route path="/termsandcondition" element={<TermsAndCondition/>} />
       </Routes>
       <Footer/>
       </BrowserRouter>
