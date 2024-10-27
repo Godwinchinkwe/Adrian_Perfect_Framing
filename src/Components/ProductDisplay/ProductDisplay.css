@@ -1,0 +1,132 @@
+.productdisplay{
+    display: flex;
+    width: 100%; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin-top: 50px;
+
+}
+.productdisplay-left{
+    display: flex;
+    gap: 10px;
+    /* background: orange; */
+    width: 40%; 
+    justify-content: center;
+}
+.productdisplay-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} 
+.productdisplay-img-list img{
+   height: 92px;
+}
+.productdisplay-main-img{
+    width: 300px;
+    height:400px
+
+}
+.productdisplay-right{
+   /* margin: 0px 70px;  */
+   display: flex;
+   flex-direction: column;
+   width:40%
+
+}
+.productdisplay-right h1{
+     color: #3d3d3d;
+     font-size: 30px;
+     font-weight: 600;
+}
+.productdisplay-right-star{
+     display: flex;
+     align-items: center;
+     margin-top: 13px;
+     gap:5px;
+     /* color: #1c1c1c; */
+     font-size: 16px;
+     width: 20px;
+}
+.productdisplay-right-prices{
+    display: flex;
+    margin: 20px 0px;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.productdisplay-right-price-old{
+    color: #818181 ;
+    text-decoration: line-through;
+}
+.productdisplay-right-price-new{
+    color: #ff4141;
+
+}
+.productdisplay-right-size h1{
+    margin-top: 20px;
+    color: #656565;
+    font-size: 20px;
+    font-weight: 600;
+}
+.productdisplay-right-sizes{
+   display: flex;
+   margin :20px 0px; 
+   gap: 20px;
+}
+.productdisplay-right-sizes div{
+    padding: 12px 10px;
+    background: #fbfbfb;
+    border: 1px solid #ebbebe;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.productdisplay-right button{
+    padding: 10px 20px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background: #ff4141;
+    border:none;
+    outline: none;
+    cursor: pointer;
+
+}
+.productdisplay-right-category{
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+.productdisplay-right-category span{
+    font-weight: 600;
+
+
+}
+
+@media screen and (max-width:768px) {
+    .productdisplay{
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+        flex-wrap: wrap; 
+        align-items: center;
+        justify-content: center; 
+        gap: 50px;
+    }
+
+    .productdisplay-right{
+        /* margin: 0px 70px;  */
+        display: flex;
+        flex-direction: column;
+        /* background: green; */
+        width:90%
+     }
+
+     .productdisplay-left{
+        display: flex;
+        gap: 10px;
+        /* background: orange; */
+        width: 90%; 
+        justify-content: center;
+    }
+}

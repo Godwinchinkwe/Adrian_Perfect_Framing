@@ -11,7 +11,7 @@ const Falldown = (prop) => {
     <div className='dropwrap'>
         <p className='fd' onClick={() => {props(); navigate('/')}} >Home</p>
         <p className='fd' onClick={() => {props(); navigate('Services/')}} >Services</p>
-        <p className='fd' onClick={() => {props(); navigate('Product/')}}>Product</p>
+        <p className='fd' onClick={() => {props(); navigate('Gallery/')}}>Product</p>
         <p className='fd' onClick={() => {props(); navigate('About/')}}>About Us</p>
         <p className='fd' onClick={() => {props(); navigate('Contact/')}}>Contact Us</p>
 

@@ -6,7 +6,6 @@ import { FaInstagram } from "react-icons/fa";
 import apf_logo from "../Assets/copylogo.jpg"
 import {useNavigate} from "react-router-dom"
 
-
 const Footer = () => {
   const navigate = useNavigate();
   return (
@@ -20,7 +19,7 @@ const Footer = () => {
             <li onClick={() =>  navigate('services/')}>Services</li>
             <li onClick={() =>  navigate('about/')}> About</li>
             <li onClick={() =>  navigate('termsandcondition/')}>Terms & Condition</li>
-            <li onClick={() =>  navigate('product/')}>Products</li>
+            <li onClick={() =>  navigate('gallery/')}>Products</li>
             <li onClick={() =>  navigate('contact/')}>Offices</li>
             <li onClick={() =>  navigate('privacypolicy/')}>Privacy Policy</li>
         </ul>

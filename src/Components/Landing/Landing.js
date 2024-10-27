@@ -29,7 +29,7 @@ const Landing = () => {
            </p>
             <br></br>
             <div class="cantainer__btn">
-              <button class="btn" onClick={() =>  navigate('contact/')}>BOOK NOW</button>
+              <button class="btn" onClick={() =>  navigate('gallery/')}>BOOK NOW</button>
             </div>
           </div>
           <div class="cantainer__right">

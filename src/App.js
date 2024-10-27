@@ -10,6 +10,7 @@ import Contact from './Pages/Contact';
 import PrivacyPolicy from './Pages/PrivacyPolicy';
 import Whatsapp from './Components/Whatsapp/whatsapp';
 import TermsAndCondition from "./Pages/TermsAndCondition"
+import Gallery from "./Pages/Gallery"
 
 function App() {
   return (
@@ -21,10 +22,13 @@ function App() {
         <Route path="/" element={<Hero/>} />
         <Route path='/about' element={<About/>}/>
         <Route path="/services" element={<Services/>} />
-        <Route path="/product" element={<Product/>} />
+        <Route path="/gallery" element={<Gallery/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/privacypolicy" element={<PrivacyPolicy/>} />
         <Route path="/termsandcondition" element={<TermsAndCondition/>} />
+        <Route path="/product" element={<Product/>}>
+        <Route path=":productId" element={<Product/>}/>
+        </Route>
       </Routes>
       <Footer/>
       </BrowserRouter>
