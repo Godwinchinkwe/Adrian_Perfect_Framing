@@ -34,28 +34,6 @@
     
 }
 
-.btnx {
-    outline: none;
-    border: none;
-    transition: 0.3s;
-    cursor: pointer;
-    padding: 1rem 2rem;
-    letter-spacing: 2px;
-    background: #0c0c0c;
-    color: white;
-    /* color: var(--text-dark); */
-    /* background-color: var(--primary-color); */
-    border-radius: 5rem;
-    margin-bottom: 20px;
-    font-weight: 600;
-  }
-  
-  .btnx:hover {
-    color: white;
-    /* background-color: var(--primary-color); */
-    background: #555;;
-  }
-
 @media screen and (max-width:500px) {
     .popular h1{
         color: #171717;

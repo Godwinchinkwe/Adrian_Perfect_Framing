@@ -1,5 +1,5 @@
 import React from 'react'
-import "./CSS/Product.css"
+import "./CSS/Gallery.css"
 import Item from '../Components/Item/Item'
 import all_product from "../Components/Assets/all_product"
 // import { useParams } from 'react-router-dom'
@@ -11,7 +11,7 @@ const Product = () => {
   // const product = all_product.find((e)=> e.id === Number(productId));
   return (
     <div className='all_productx'>
-            <h1> AVALIABLE FRAMES</h1>
+            <h1> Explore Our Available Frames</h1>
         <hr/>
         <div className='popular-products'>
             {all_product.map((item)=>{

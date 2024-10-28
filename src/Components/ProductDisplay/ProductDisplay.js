@@ -40,16 +40,16 @@ const ProductDisplay = () => {
           <div className='productdisplay-right-price-new'>#{product.new_price}</div>
         </div>
         <div className='productdisplay-right-description'>
-          A lightweight, usually knitted, popullar shit wested on the osofagut of the uniwendum and d calamoric temperation of the vertebral column
+          A lightweight, usually knitted, popullar shit wested on the osofagut of the uniwendum  column
         </div>
         <div className='productdisplay-right-size'>
           <h1>Available in All sizes </h1>
           <div className='productdisplay-right-sizes'>
-            <div>S</div>
+            {/* <div>S</div>
             <div>M</div>
             <div>L</div>
             <div>XL</div>
-            <div>XXL</div>
+            <div>XXL</div> */}
           </div>
           <a target="_blank" rel="noreferrer" href="https://wa.link/hhmmbd"><button>Order Now</button></a>
           <p className='productdisplay-right-category'><span>Category:</span> Acrylic Frame</p>

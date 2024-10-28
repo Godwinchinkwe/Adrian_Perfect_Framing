@@ -9,13 +9,13 @@ import p4_img from './sleek4.jpg'
 
 let data_product = [
   {
-    id:1,
+    id:20,
     name:"Frameless SPlit",
     image:p1_img,
-    // new_price:50.00,
-    // old_price:80.50,
+    new_price:50.00,
+    old_price:80.50,
   },
-  {id:2,
+  {id:21,
     name:"Frameless",
     image:p2_img,
     // new_price:85.00,

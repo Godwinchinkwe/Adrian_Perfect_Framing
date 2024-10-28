@@ -5,23 +5,29 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import apf_logo from "../Assets/copylogo.jpg"
 import {useNavigate} from "react-router-dom"
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
+  
   const navigate = useNavigate();
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+
   return (
     <div className='footer'>
         <div className='footer-logo'>
-            <img src={apf_logo} alt=""/>
+            <img src={apf_logo} alt=""  onClick={() =>  navigate('/')}/>
         </div>
 
         <ul className='footer-links'>
-            <li onClick={() =>  navigate('contact/')}>Company</li>
-            <li onClick={() =>  navigate('services/')}>Services</li>
-            <li onClick={() =>  navigate('about/')}> About</li>
-            <li onClick={() =>  navigate('termsandcondition/')}>Terms & Condition</li>
-            <li onClick={() =>  navigate('gallery/')}>Products</li>
-            <li onClick={() =>  navigate('contact/')}>Offices</li>
-            <li onClick={() =>  navigate('privacypolicy/')}>Privacy Policy</li>
+           <Link onClick={scrollToTop} to="contact/"><li className='ftlnk'> Company </li></Link>
+           <Link onClick={scrollToTop} to="services/"><li>Services</li></Link>
+           <Link onClick={scrollToTop} to="about/"><li>About</li></Link>
+           <Link onClick={scrollToTop} to="gallery/"><li>Product</li></Link>
+           <Link onClick={scrollToTop} to="termsandcondition/"><li>Terms & Condition</li></Link>
+           <Link onClick={scrollToTop} to="privacypolicy/"><li>Privacy Policy</li></Link>
         </ul>
         <div className='footer-social-icon'>
             <div className='footer-icons-container'>
