@@ -1,0 +1,129 @@
+
+  
+  :root {
+    --main-color: #8B6990;
+    --secondary-color: hsl(292, 42%, 14%);
+    --accent-color:#eb9f58;
+    --background-color: hsl(275, 100%, 97%);
+  }
+  
+  
+  .faqh {
+    font-size: 25px;
+    color: var(--secondary-color);
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .faqhh {
+    font-size: 18px;
+    color: var(--secondary-color);
+  }
+  
+  .faqp {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--main-color);
+    padding-top: 24px;
+  }
+  
+  .bodyy {
+    /* height: 100%; */
+    font-family: 'Work Sans';
+    background: #f8f3f3; 
+    /* background-color: hsl(275, 100%, 97%); */
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-start; */
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    /* margin-top: 50px; */
+    /* overflow: scroll; */
+  }
+  
+  .heading-containerfaq {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .mainn {
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px 40px 25px 40px;
+    /* max-width: 600px; */
+    width: 60%;
+    box-shadow: 0px 10px 25px rgba(77, 7, 110, 0.19);
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  
+  
+  
+  summary {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  summary:hover h2 {
+    color: var(--accent-color);
+    cursor: pointer;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none; 
+  }
+  
+  summary::after {
+    content: 'aaaaaa';
+    color: #8b699000;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px
+  }
+  
+  summary::before {
+    display: none;
+  }
+  
+  
+  
+  summary:hover {
+    cursor: pointer;
+    color: var(--accent-color);
+  }
+  
+  details[open] > summary::after {
+    background: rgb(216, 106, 59);
+  }
+  
+  details {
+    padding: 20px 0px
+  }
+  
+  hr {
+    border: 1px solid var(--background-color);
+  }
+  
+
+  @media screen and (max-width:768px) {
+    .mainn {
+        border-radius: 8px;
+        padding: 30px 20px 25px 20px;
+        width: 60%;
+      }
+}
+
+  @media screen and (max-width:500px) {
+    .mainn {
+        border-radius: 8px;
+        padding: 30px 20px 25px 20px;
+        width: 93%;
+      }
+}

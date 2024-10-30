@@ -23,7 +23,7 @@ const Footer = () => {
 
         <ul className='footer-links'>
            <Link onClick={scrollToTop} to="contact/"><li className='ftlnk'> Company </li></Link>
-           <Link onClick={scrollToTop} to="services/"><li>Services</li></Link>
+           <Link onClick={scrollToTop} to="faq/"><li>FAQ</li></Link>
            <Link onClick={scrollToTop} to="about/"><li>About</li></Link>
            <Link onClick={scrollToTop} to="gallery/"><li>Product</li></Link>
            <Link onClick={scrollToTop} to="termsandcondition/"><li>Terms & Condition</li></Link>

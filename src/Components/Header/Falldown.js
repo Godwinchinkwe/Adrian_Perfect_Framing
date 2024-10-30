@@ -14,6 +14,7 @@ const Falldown = (prop) => {
         <p className='fd' onClick={() => {props(); navigate('Gallery/')}}>Product</p>
         <p className='fd' onClick={() => {props(); navigate('About/')}}>About Us</p>
         <p className='fd' onClick={() => {props(); navigate('Contact/')}}>Contact Us</p>
+        <p className='fd' onClick={() => {props(); navigate('Faq/')}}>FAQ</p>
 
         {/* <a className='fd' target="_blank" rel="noreferrer" href="https://github.com/Godwinchinkwe">
         <p  >Gitbub Profile</p></a> */}
