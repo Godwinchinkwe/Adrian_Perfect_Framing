@@ -3,15 +3,17 @@ import "./DescriptionBox.css"
 
 const DescriptionBox = () => {
   return (
+    <div className='maindesciptionbosx'>
     <div className='descriptionbox' >
        <div className='descriptionbox-navigator'>
         <div className='description-nav-box'>Description</div>
         <div className='description-nav-box fade'>Reviews (122)</div>
        </div>
        <div className='descriptionbox-description'>
-        <p> Framing, in construction, is the fitting together of pieces to give a structure, particularly a building, support and shape. Framing materials are usually wood, engineered wood, or structural steel. </p>
-        <p> Historically, people fitted naturally shaped wooden poles together as framework and then began using joints to connect the timbers, a method today called traditional timber framing or log </p>
+        <p> When buying a frame, it's essential to consider both style and functionality to best complement and protect the artwork or photo </p>
+        <p> Materials like wood offer a classic, durable look, while metal frames give a modern, sleek feel. Ensure the frame includes sturdy backing, especially for valuable or delicate items, and consider UV-protected glass to shield against fading. </p>
        </div>
+    </div>
     </div>
   )
 }

@@ -1,6 +1,12 @@
+.maindesciptionbosx{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .descriptionbox{
     margin-top: 30px;
-    background: pink;
+    /* background: pink; */
+    width: 85%;
 }
 .descriptionbox-navigator{
     display: flex;
@@ -9,10 +15,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     width: 171px;
-    height: 70px;
+    height: 40px;
     border: 1px solid #d0d0d0;
 }
 .description-nav-box .fade{
@@ -22,8 +28,12 @@
 .descriptionbox-description{
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 15px;
     border: 1px solid #d0d0d0;
-    padding: 28px;
-    padding-bottom: 20px;
+    padding: 18px;
+    padding-bottom: 10px;
+}
+.descriptionbox-description p{
+    font-size: 12px;
+
 }

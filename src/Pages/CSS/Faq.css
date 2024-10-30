@@ -21,13 +21,24 @@
   .faqhh {
     font-size: 18px;
     color: var(--secondary-color);
+    animation: fadeInRight 2s ease;
   }
+  /* .faqh::after{
+    content: "";
+    height: 4px;
+    width: 230px;
+    background: #e11e25;
+    display: block;
+    margin: auto;
+} */
   
   .faqp {
     font-size: 1rem;
     line-height: 1.5rem;
     color: var(--main-color);
     padding-top: 24px;
+    animation: fadeInUp 2s ease;
+     animation: fadeInRight 2s ease;
   }
   
   .bodyy {
@@ -60,6 +71,9 @@
     box-shadow: 0px 10px 25px rgba(77, 7, 110, 0.19);
     margin-top: 20px;
     margin-bottom: 50px;
+    animation: fadeInUp 2s ease;
+    /* display: flex;
+    flex-direction: column; */
   }
   
   
