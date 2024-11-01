@@ -44,13 +44,13 @@ const Faq = () => {
           </h2>
         </summary>
         <p className='faqp'>
-        We are currently working on 6 types of photo frame.
-① Stickable photo tile (SP-V4): 2mm MDF+15mm XPS foaming
-② Framed photo panel (SF-12): 1mm acrylic + 20mm PS frame
-③ Aluminum alloy magnetic photo frame (SF-13): 1mm acrylic + 30mm Aluminum alloy frame
-④ Plastic photo frame (SF-16): 5mm KT + 20mm Plastic frame
-⑤ Aluminum alloy photo frame (SF-17): 4mm MDF + 30mm Aluminum alloy frame
-⑥ Acrylic Magnet photo frame (SA-21): 4mm+4mm acrylic
+        We are currently working on 6 types of photo frame.<br/><br/>
+① Stickable photo tile (SP-V4): 2mm MDF+15mm XPS foaming <br/>
+② Framed photo panel (SF-12): 1mm acrylic + 20mm PS frame<br/>
+③ Aluminum alloy magnetic photo frame (SF-13): 1mm acrylic + 30mm Aluminum alloy frame<br/>
+④ Plastic photo frame (SF-16): 5mm KT + 20mm Plastic frame <br/>
+⑤ Aluminum alloy photo frame (SF-17): 4mm MDF + 30mm Aluminum alloy frame <br/>
+⑥ Acrylic Magnet photo frame (SA-21): 4mm+4mm acrylic <br/>
 
         </p>
       </details>
