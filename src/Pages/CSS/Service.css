@@ -34,6 +34,7 @@
     background: #efefef;
     border-radius: 10px;
     cursor: pointer;
+    animation: fadeInUp 2s ease;
 }
 .services-card:hover{
     /* background: #b8d4de; */

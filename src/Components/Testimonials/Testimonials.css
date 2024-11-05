@@ -1,0 +1,32 @@
+/* .test-cont{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 2000px;
+} */
+.testimony-container{
+    width: 50%;
+   
+}
+.testimony{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    text-align: center;
+}
+
+.testimony img{
+    width: 4rem;
+    margin: 0 auto;
+}
+
+@media (max-width:1024px) {
+    .testimony-container{
+        width: 60%;
+    }
+}
+
+@media (max-width:1024px) {
+    .testimony-container{
+        width: 90%;
+    }
+}

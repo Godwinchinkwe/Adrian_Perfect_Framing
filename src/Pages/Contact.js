@@ -49,7 +49,8 @@ const About = () => {
       <section className='contact'>
         <div className='content'>
           <h1> Contact Us </h1>
-          <p>We sell Photolabs Materials such as  Flash Laminations Films, Matt Laminations Films Leather Laminations Films, Printer Papers Canvas Materials etc.</p>
+          <p>We sell Photolabs Materials such as  Flash Laminations Films, Matt Laminations Films Leather Laminations Films, Printer Papers Canvas Materials etc.</p> <br/>
+          <p>"Lets Make Something Amazing together start by Saying Hello"</p>
         </div>
         <div className='container'>
           <div className='contactInfo'>
@@ -80,6 +81,7 @@ const About = () => {
 
             <form id="myForm" ref={form} onSubmit={sendEmail} >
               <h2>Get in touch</h2>
+              
               <div className='inputBox'>
                 <input type="text" name="to_name" value={name} required placeholder=''
                   onChange={(e) => setName(e.target.value)}/>
