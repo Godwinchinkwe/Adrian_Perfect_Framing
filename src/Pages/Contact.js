@@ -58,7 +58,8 @@ const About = () => {
               <div className='icon'><FaRegAddressBook /></div>
               <div className='text'>
                 <h3>Head office & Showroom</h3>
-                <p> No6 Ayinke Street Ladlak Bariga Lagos, Nigeria
+                <p> 
+                No.17 Lisabi street Debari bus stop Shomolu Lagos Nigeria
                 </p>
               </div>
             </div>

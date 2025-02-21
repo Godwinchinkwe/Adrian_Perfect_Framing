@@ -1,0 +1,6 @@
+.pop_image{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    gap: 3px;
+}

@@ -6,6 +6,8 @@
     gap: 10px;
     flex-wrap: wrap;
     margin-top: 50px;
+    /* justify-content: center; */
+    /* background: red; */
 
   
 }
