@@ -40,8 +40,11 @@
 }
 .footer-links li{
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: underline;
     color: #ffffff;
+    /* color: red; */
+    text-underline-offset: none;
+    /* text-underline-offset:none; */
 }
 .footer-social-icon{
     display: flex;

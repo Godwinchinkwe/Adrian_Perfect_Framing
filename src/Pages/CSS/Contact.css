@@ -199,4 +199,9 @@
           transform: translateX(0px);
       }
   }
- 
+  .delivery{
+    color: rgb(50, 189, 50);
+  }
+ .notdelivered{
+    color: rgb(183, 29, 29);
+ }

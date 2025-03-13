@@ -59,7 +59,7 @@ const About = () => {
               <div className='text'>
                 <h3>Head office & Showroom</h3>
                 <p> 
-                No.17 Lisabi street Debari bus stop Shomolu Lagos Nigeria
+                No.17 Lisabi street Debari bus stop Shomolu Lagos, Nigeria.
                 </p>
               </div>
             </div>
@@ -101,8 +101,8 @@ const About = () => {
               <div className='inputBox'>
                 <input type="submit" name="" value="send" />
               </div>
-              <h3>{done && "Message Sent"}</h3>
-              <h3>{notSent && "Message Not Sent! check your network connection"} </h3>
+              <h3 className='delivery'>{done && "Thanks For Contacting Us"}</h3>
+              <h3 className='notdelivered'>{notSent && "Message Not Sent! Pls. check your network connection"} </h3>
 
               
             </form>
