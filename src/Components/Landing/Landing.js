@@ -19,12 +19,13 @@ const Landing = () => {
             <h1>Adrian Perfect Framing</h1>
            
             <p><span ><Typewriter options={{
-                            strings : [ "Transform your memories into timeless treasures with our Exquisite picture Frame. Elevate your space and Showcase  Cherished moments with our Stylish Frames","... ", "Where Every Pictures Tells a Story" ],
+                            strings : [ "Transform your memories into timeless treasures with our Exquisite Picture Frame. Elevate your space and Showcase Cherished moments with our Stylish Frames.","... ", "Where Every Pictures Tells a Story." ],
                             loop: true,
                             autoStart:true,
                             typeSpeed: 120,
                             backSpeed: 80,
-                            backDelay:1800,
+                            backDelay:1000,
+                            deleteSpeed:10,
                         }}/> </span>
            </p>
             <br></br>
